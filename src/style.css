@@ -1,8 +1,32 @@
 html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+default_text { 
+  color:white;
+  font-family: sans-serif;
+}
   
+info_screen, default_text {
+  color:aqua;
+}
+
+score_label, default_text {
+  color:red;
+}
+
+player {
+  color:brown;
+}
+
+background {
+  color:black;
+}
+
+stars {
+  color:#fff3
+}
