@@ -1,0 +1,24 @@
+{
+  "name": "web-game",
+  "version": "1.0.0",
+  "description": "A hobby project between best friends.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunnyDaye/web-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunnyDaye/web-game/issues"
+  },
+  "homepage": "https://github.com/SunnyDaye/web-game#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
